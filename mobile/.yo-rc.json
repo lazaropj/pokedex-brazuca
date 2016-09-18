@@ -1,0 +1,55 @@
+{
+  "generator-m-ionic": {
+    "answers": {
+      "appName": "ionic-jhipster",
+      "appId": "comp.company.project",
+      "ionicCss": false,
+      "bowerPackages": [
+        "angular-resource#^1.5.5",
+        "ngstorage#^0.3.10",
+        "angular-cookies#^1.5.5",
+        "angular-aria#1.5.2",
+        "ngInfiniteScroll#1.2.2",
+        "angular-bootstrap#1.2.5",
+        "angular-cache-buster#0.4.3",
+        "angular-sanitize#1.5.2",
+        "angular-aria#1.5.2"
+      ],
+      "platforms": [],
+      "plugins": [],
+      "appModule": "ionic-jhipster",
+      "ecosystems": []
+    }
+  },
+  "generator-jhipster": {
+    "jhipsterVersion": "3.7.0",
+    "baseName": "gateway",
+    "packageName": "br.com.alura.pokedex",
+    "packageFolder": "br/com/alura/pokedex",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "hibernateCache": "hazelcast",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "buildTool": "maven",
+    "jwtSecretKey": "4198437a7a42ea8a797103c2c9950e9306292281",
+    "useSass": true,
+    "applicationType": "gateway",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "pt-br",
+    "languages": [
+      "pt-br",
+      "en",
+      "es"
+    ],
+    "jhipsterHome": "../gateway"
+  }
+}
