@@ -1,0 +1,24 @@
+{
+    "gatewayApp": {
+        "pokemon" : {
+            "home": {
+                "title": "Pokemons",
+                "createLabel": "Criar novo Pokemon",
+                "createOrEditLabel": "Criar ou editar Pokemon",
+                "search": "Pesquisar por Pokemon"
+            },
+            "created": "Um novo Pokemon é criado com o identificador {{ param }}",
+            "updated": "Um Pokemon é atualizado com o identificador {{ param }}",
+            "deleted": "Um Pokemon é deletado com o identificador {{ param }}",
+            "delete": {
+                "question": "Tem certeza de que deseja excluir Pokemon {{ id }}?"
+            },
+            "detail": {
+                "title": "Pokemon"
+            },
+            "nome": "Nome",
+            "imagemURL": "Imagem URL",
+            "tipo": "Tipo"
+        }
+    }
+}
