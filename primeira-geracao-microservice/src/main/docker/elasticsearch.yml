@@ -1,0 +1,10 @@
+version: '2'
+services:
+    primeirageracaomicroservice-elasticsearch:
+        container_name: primeirageracaomicroservice-elasticsearch
+        image: elasticsearch:2.4.0
+        # volumes:
+        #     - ~/volumes/jhipster/primeiraGeracaoMicroservice/elasticsearch/:/usr/share/elasticsearch/data/
+        ports:
+            - 9200:9200
+            - 9300:9300
