@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet id="primeira_geracao" author="wallace souza">
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="1"/>
+            <column name="nome" valueComputed="'bulbasaur'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png'"/>
+            <column name="tipo" valueComputed="'grass'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="2"/>
+            <column name="nome" valueComputed="'ivysaur'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png'"/>
+            <column name="tipo" valueComputed="'grass'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="3"/>
+            <column name="nome" valueComputed="'venusaur'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png'"/>
+            <column name="tipo" valueComputed="'grass'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="4"/>
+            <column name="nome" valueComputed="'charmander'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png'"/>
+            <column name="tipo" valueComputed="'fire'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="5"/>
+            <column name="nome" valueComputed="'charmeleon'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png'"/>
+            <column name="tipo" valueComputed="'fire'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="6"/>
+            <column name="nome" valueComputed="'charizard'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png'"/>
+            <column name="tipo" valueComputed="'fire'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="7"/>
+            <column name="nome" valueComputed="'squirtle'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="8"/>
+            <column name="nome" valueComputed="'wartortle'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="9"/>
+            <column name="nome" valueComputed="'blastoise'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="10"/>
+            <column name="nome" valueComputed="'caterpie'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png'"/>
+            <column name="tipo" valueComputed="'bug'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="11"/>
+            <column name="nome" valueComputed="'metapod'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png'"/>
+            <column name="tipo" valueComputed="'bug'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="12"/>
+            <column name="nome" valueComputed="'butterfree'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png'"/>
+            <column name="tipo" valueComputed="'bug'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="13"/>
+            <column name="nome" valueComputed="'weedle'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png'"/>
+            <column name="tipo" valueComputed="'bug'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="14"/>
+            <column name="nome" valueComputed="'kakuna'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png'"/>
+            <column name="tipo" valueComputed="'bug'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="15"/>
+            <column name="nome" valueComputed="'beedrill'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png'"/>
+            <column name="tipo" valueComputed="'bug'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="16"/>
+            <column name="nome" valueComputed="'pidgey'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="17"/>
+            <column name="nome" valueComputed="'pidgeotto'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="18"/>
+            <column name="nome" valueComputed="'pidgeot'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="19"/>
+            <column name="nome" valueComputed="'rattata'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="20"/>
+            <column name="nome" valueComputed="'raticate'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="21"/>
+            <column name="nome" valueComputed="'spearow'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="22"/>
+            <column name="nome" valueComputed="'fearow'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="23"/>
+            <column name="nome" valueComputed="'ekans'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png'"/>
+            <column name="tipo" valueComputed="'poison'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="24"/>
+            <column name="nome" valueComputed="'arbok'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png'"/>
+            <column name="tipo" valueComputed="'poison'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="25"/>
+            <column name="nome" valueComputed="'pikachu'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png'"/>
+            <column name="tipo" valueComputed="'electric'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="26"/>
+            <column name="nome" valueComputed="'raichu'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png'"/>
+            <column name="tipo" valueComputed="'electric'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="27"/>
+            <column name="nome" valueComputed="'sandshrew'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png'"/>
+            <column name="tipo" valueComputed="'ground'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="28"/>
+            <column name="nome" valueComputed="'sandslash'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png'"/>
+            <column name="tipo" valueComputed="'ground'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="29"/>
+            <column name="nome" valueComputed="'nidoran-f'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png'"/>
+            <column name="tipo" valueComputed="'poison'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="30"/>
+            <column name="nome" valueComputed="'nidorina'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png'"/>
+            <column name="tipo" valueComputed="'poison'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="31"/>
+            <column name="nome" valueComputed="'nidoqueen'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png'"/>
+            <column name="tipo" valueComputed="'poison'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="32"/>
+            <column name="nome" valueComputed="'nidoran-m'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png'"/>
+            <column name="tipo" valueComputed="'poison'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="33"/>
+            <column name="nome" valueComputed="'nidorino'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png'"/>
+            <column name="tipo" valueComputed="'poison'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="34"/>
+            <column name="nome" valueComputed="'nidoking'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png'"/>
+            <column name="tipo" valueComputed="'poison'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="35"/>
+            <column name="nome" valueComputed="'clefairy'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png'"/>
+            <column name="tipo" valueComputed="'fairy'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="36"/>
+            <column name="nome" valueComputed="'clefable'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png'"/>
+            <column name="tipo" valueComputed="'fairy'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="37"/>
+            <column name="nome" valueComputed="'vulpix'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png'"/>
+            <column name="tipo" valueComputed="'fire'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="38"/>
+            <column name="nome" valueComputed="'ninetales'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png'"/>
+            <column name="tipo" valueComputed="'fire'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="39"/>
+            <column name="nome" valueComputed="'jigglypuff'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="40"/>
+            <column name="nome" valueComputed="'wigglytuff'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="41"/>
+            <column name="nome" valueComputed="'zubat'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png'"/>
+            <column name="tipo" valueComputed="'poison'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="42"/>
+            <column name="nome" valueComputed="'golbat'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png'"/>
+            <column name="tipo" valueComputed="'poison'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="43"/>
+            <column name="nome" valueComputed="'oddish'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png'"/>
+            <column name="tipo" valueComputed="'grass'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="44"/>
+            <column name="nome" valueComputed="'gloom'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png'"/>
+            <column name="tipo" valueComputed="'grass'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="45"/>
+            <column name="nome" valueComputed="'vileplume'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png'"/>
+            <column name="tipo" valueComputed="'grass'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="46"/>
+            <column name="nome" valueComputed="'paras'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png'"/>
+            <column name="tipo" valueComputed="'bug'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="47"/>
+            <column name="nome" valueComputed="'parasect'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png'"/>
+            <column name="tipo" valueComputed="'bug'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="48"/>
+            <column name="nome" valueComputed="'venonat'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png'"/>
+            <column name="tipo" valueComputed="'bug'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="49"/>
+            <column name="nome" valueComputed="'venomoth'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png'"/>
+            <column name="tipo" valueComputed="'bug'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="50"/>
+            <column name="nome" valueComputed="'diglett'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png'"/>
+            <column name="tipo" valueComputed="'ground'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="51"/>
+            <column name="nome" valueComputed="'dugtrio'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png'"/>
+            <column name="tipo" valueComputed="'ground'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="52"/>
+            <column name="nome" valueComputed="'meowth'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="53"/>
+            <column name="nome" valueComputed="'persian'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="54"/>
+            <column name="nome" valueComputed="'psyduck'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="55"/>
+            <column name="nome" valueComputed="'golduck'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="56"/>
+            <column name="nome" valueComputed="'mankey'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png'"/>
+            <column name="tipo" valueComputed="'fighting'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="57"/>
+            <column name="nome" valueComputed="'primeape'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png'"/>
+            <column name="tipo" valueComputed="'fighting'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="58"/>
+            <column name="nome" valueComputed="'growlithe'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png'"/>
+            <column name="tipo" valueComputed="'fire'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="59"/>
+            <column name="nome" valueComputed="'arcanine'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png'"/>
+            <column name="tipo" valueComputed="'fire'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="60"/>
+            <column name="nome" valueComputed="'poliwag'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="61"/>
+            <column name="nome" valueComputed="'poliwhirl'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="62"/>
+            <column name="nome" valueComputed="'poliwrath'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="63"/>
+            <column name="nome" valueComputed="'abra'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png'"/>
+            <column name="tipo" valueComputed="'psychic'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="64"/>
+            <column name="nome" valueComputed="'kadabra'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png'"/>
+            <column name="tipo" valueComputed="'psychic'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="65"/>
+            <column name="nome" valueComputed="'alakazam'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png'"/>
+            <column name="tipo" valueComputed="'psychic'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="66"/>
+            <column name="nome" valueComputed="'machop'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png'"/>
+            <column name="tipo" valueComputed="'fighting'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="67"/>
+            <column name="nome" valueComputed="'machoke'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png'"/>
+            <column name="tipo" valueComputed="'fighting'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="68"/>
+            <column name="nome" valueComputed="'machamp'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png'"/>
+            <column name="tipo" valueComputed="'fighting'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="69"/>
+            <column name="nome" valueComputed="'bellsprout'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png'"/>
+            <column name="tipo" valueComputed="'grass'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="70"/>
+            <column name="nome" valueComputed="'weepinbell'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png'"/>
+            <column name="tipo" valueComputed="'grass'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="71"/>
+            <column name="nome" valueComputed="'victreebel'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png'"/>
+            <column name="tipo" valueComputed="'grass'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="72"/>
+            <column name="nome" valueComputed="'tentacool'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="73"/>
+            <column name="nome" valueComputed="'tentacruel'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="74"/>
+            <column name="nome" valueComputed="'geodude'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png'"/>
+            <column name="tipo" valueComputed="'rock'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="75"/>
+            <column name="nome" valueComputed="'graveler'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png'"/>
+            <column name="tipo" valueComputed="'rock'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="76"/>
+            <column name="nome" valueComputed="'golem'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png'"/>
+            <column name="tipo" valueComputed="'rock'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="77"/>
+            <column name="nome" valueComputed="'ponyta'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png'"/>
+            <column name="tipo" valueComputed="'fire'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="78"/>
+            <column name="nome" valueComputed="'rapidash'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png'"/>
+            <column name="tipo" valueComputed="'fire'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="79"/>
+            <column name="nome" valueComputed="'slowpoke'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="80"/>
+            <column name="nome" valueComputed="'slowbro'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="81"/>
+            <column name="nome" valueComputed="'magnemite'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png'"/>
+            <column name="tipo" valueComputed="'electric'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="82"/>
+            <column name="nome" valueComputed="'magneton'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png'"/>
+            <column name="tipo" valueComputed="'electric'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="83"/>
+            <column name="nome" valueComputed="'farfetchd'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="84"/>
+            <column name="nome" valueComputed="'doduo'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="85"/>
+            <column name="nome" valueComputed="'dodrio'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="86"/>
+            <column name="nome" valueComputed="'seel'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="87"/>
+            <column name="nome" valueComputed="'dewgong'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="88"/>
+            <column name="nome" valueComputed="'grimer'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png'"/>
+            <column name="tipo" valueComputed="'poison'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="89"/>
+            <column name="nome" valueComputed="'muk'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png'"/>
+            <column name="tipo" valueComputed="'poison'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="90"/>
+            <column name="nome" valueComputed="'shellder'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="91"/>
+            <column name="nome" valueComputed="'cloyster'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="92"/>
+            <column name="nome" valueComputed="'gastly'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png'"/>
+            <column name="tipo" valueComputed="'ghost'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="93"/>
+            <column name="nome" valueComputed="'haunter'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png'"/>
+            <column name="tipo" valueComputed="'ghost'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="94"/>
+            <column name="nome" valueComputed="'gengar'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png'"/>
+            <column name="tipo" valueComputed="'ghost'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="95"/>
+            <column name="nome" valueComputed="'onix'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png'"/>
+            <column name="tipo" valueComputed="'rock'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="96"/>
+            <column name="nome" valueComputed="'drowzee'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png'"/>
+            <column name="tipo" valueComputed="'psychic'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="97"/>
+            <column name="nome" valueComputed="'hypno'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png'"/>
+            <column name="tipo" valueComputed="'psychic'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="98"/>
+            <column name="nome" valueComputed="'krabby'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="99"/>
+            <column name="nome" valueComputed="'kingler'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="100"/>
+            <column name="nome" valueComputed="'voltorb'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png'"/>
+            <column name="tipo" valueComputed="'electric'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="101"/>
+            <column name="nome" valueComputed="'electrode'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png'"/>
+            <column name="tipo" valueComputed="'electric'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="102"/>
+            <column name="nome" valueComputed="'exeggcute'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png'"/>
+            <column name="tipo" valueComputed="'grass'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="103"/>
+            <column name="nome" valueComputed="'exeggutor'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png'"/>
+            <column name="tipo" valueComputed="'grass'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="104"/>
+            <column name="nome" valueComputed="'cubone'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png'"/>
+            <column name="tipo" valueComputed="'ground'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="105"/>
+            <column name="nome" valueComputed="'marowak'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png'"/>
+            <column name="tipo" valueComputed="'ground'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="106"/>
+            <column name="nome" valueComputed="'hitmonlee'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png'"/>
+            <column name="tipo" valueComputed="'fighting'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="107"/>
+            <column name="nome" valueComputed="'hitmonchan'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png'"/>
+            <column name="tipo" valueComputed="'fighting'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="108"/>
+            <column name="nome" valueComputed="'lickitung'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="109"/>
+            <column name="nome" valueComputed="'koffing'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png'"/>
+            <column name="tipo" valueComputed="'poison'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="110"/>
+            <column name="nome" valueComputed="'weezing'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png'"/>
+            <column name="tipo" valueComputed="'poison'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="111"/>
+            <column name="nome" valueComputed="'rhyhorn'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png'"/>
+            <column name="tipo" valueComputed="'ground'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="112"/>
+            <column name="nome" valueComputed="'rhydon'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png'"/>
+            <column name="tipo" valueComputed="'ground'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="113"/>
+            <column name="nome" valueComputed="'chansey'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="114"/>
+            <column name="nome" valueComputed="'tangela'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png'"/>
+            <column name="tipo" valueComputed="'grass'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="115"/>
+            <column name="nome" valueComputed="'kangaskhan'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="116"/>
+            <column name="nome" valueComputed="'horsea'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="117"/>
+            <column name="nome" valueComputed="'seadra'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="118"/>
+            <column name="nome" valueComputed="'goldeen'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="119"/>
+            <column name="nome" valueComputed="'seaking'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="120"/>
+            <column name="nome" valueComputed="'staryu'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="121"/>
+            <column name="nome" valueComputed="'starmie'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="122"/>
+            <column name="nome" valueComputed="'mr-mime'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png'"/>
+            <column name="tipo" valueComputed="'psychic'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="123"/>
+            <column name="nome" valueComputed="'scyther'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png'"/>
+            <column name="tipo" valueComputed="'bug'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="124"/>
+            <column name="nome" valueComputed="'jynx'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png'"/>
+            <column name="tipo" valueComputed="'ice'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="125"/>
+            <column name="nome" valueComputed="'electabuzz'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png'"/>
+            <column name="tipo" valueComputed="'electric'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="126"/>
+            <column name="nome" valueComputed="'magmar'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png'"/>
+            <column name="tipo" valueComputed="'fire'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="127"/>
+            <column name="nome" valueComputed="'pinsir'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png'"/>
+            <column name="tipo" valueComputed="'bug'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="128"/>
+            <column name="nome" valueComputed="'tauros'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="129"/>
+            <column name="nome" valueComputed="'magikarp'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="130"/>
+            <column name="nome" valueComputed="'gyarados'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="131"/>
+            <column name="nome" valueComputed="'lapras'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="132"/>
+            <column name="nome" valueComputed="'ditto'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="133"/>
+            <column name="nome" valueComputed="'eevee'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="134"/>
+            <column name="nome" valueComputed="'vaporeon'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png'"/>
+            <column name="tipo" valueComputed="'water'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="135"/>
+            <column name="nome" valueComputed="'jolteon'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png'"/>
+            <column name="tipo" valueComputed="'electric'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="136"/>
+            <column name="nome" valueComputed="'flareon'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png'"/>
+            <column name="tipo" valueComputed="'fire'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="137"/>
+            <column name="nome" valueComputed="'porygon'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="138"/>
+            <column name="nome" valueComputed="'omanyte'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png'"/>
+            <column name="tipo" valueComputed="'rock'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="139"/>
+            <column name="nome" valueComputed="'omastar'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png'"/>
+            <column name="tipo" valueComputed="'rock'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="140"/>
+            <column name="nome" valueComputed="'kabuto'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png'"/>
+            <column name="tipo" valueComputed="'rock'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="141"/>
+            <column name="nome" valueComputed="'kabutops'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png'"/>
+            <column name="tipo" valueComputed="'rock'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="142"/>
+            <column name="nome" valueComputed="'aerodactyl'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png'"/>
+            <column name="tipo" valueComputed="'rock'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="143"/>
+            <column name="nome" valueComputed="'snorlax'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png'"/>
+            <column name="tipo" valueComputed="'normal'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="144"/>
+            <column name="nome" valueComputed="'articuno'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png'"/>
+            <column name="tipo" valueComputed="'ice'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="145"/>
+            <column name="nome" valueComputed="'zapdos'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png'"/>
+            <column name="tipo" valueComputed="'electric'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="146"/>
+            <column name="nome" valueComputed="'moltres'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png'"/>
+            <column name="tipo" valueComputed="'fire'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="147"/>
+            <column name="nome" valueComputed="'dratini'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png'"/>
+            <column name="tipo" valueComputed="'dragon'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="148"/>
+            <column name="nome" valueComputed="'dragonair'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png'"/>
+            <column name="tipo" valueComputed="'dragon'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="149"/>
+            <column name="nome" valueComputed="'dragonite'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png'"/>
+            <column name="tipo" valueComputed="'dragon'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="150"/>
+            <column name="nome" valueComputed="'mewtwo'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png'"/>
+            <column name="tipo" valueComputed="'psychic'"/>
+        </insert>
+
+        <insert tableName="pokemon">
+            <column name="id" valueComputed="151"/>
+            <column name="nome" valueComputed="'mew'"/>
+            <column name="imagem_url" valueComputed="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png'"/>
+            <column name="tipo" valueComputed="'psychic'"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
